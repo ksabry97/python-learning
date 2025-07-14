@@ -4,6 +4,7 @@ quantity = int(input("how many do you want ?:"))
 total = price * quantity
 print(f"total is:{total}")
 paid = float(input("your check:"))
+
 if paid < total:
     print("this not enough")
     float(input("your check:"))
